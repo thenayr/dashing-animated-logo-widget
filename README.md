@@ -35,4 +35,22 @@ Now add the widget into your dashboard:
 </li>
 ```
 
-## Customize logo animation
+## Customize logo animation and colors
+
+Customizing the animation and background colors of the widget is done in the `assets/javascripts/logo.js` file.
+
+If you would like to load a different image other than the standard `logo.png` file, just update the following line:
+
+```
+var LogoTexture = PIXI.Texture.fromImage("/assets/logo.png");
+```
+
+To change the background color of the widget, update the file `widgets/animated_logo/animated_logo.scss`
+
+Change the following CSS declaration:
+
+```
+.widget.widget-animated-logo {
+  background-color: #FFF;
+}
+```
