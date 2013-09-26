@@ -1,0 +1,19 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #fff;
+$gt-logo: url('/assets/logo_small_trans.png');
+
+// ----------------------------------------------------------------------------
+// Widget-image styles
+// ----------------------------------------------------------------------------
+.widget.widget-animated-logo {
+  background-color: $background-color;
+}
+
+.widget-animated-logo {
+
+  background-size: 81%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
