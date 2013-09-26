@@ -35,7 +35,7 @@ Now add the widget into your dashboard:
 
 ## Customize logo animation and colors
 
-Customizing the animation and background colors of the widget is done in the `assets/javascripts/logo.js` file.
+Customizing the animation `assets/javascripts/logo.js` file.
 
 If you would like to load a different image other than the standard `logo.png` file, just update the following line:
 
