@@ -23,13 +23,12 @@ We will be setting this up below.
 Copy over the files `assets/javascripts/pixi-trans.js` and `assets/javascripts/logo.js` to your dashboards `assets/javascripts` folder.
 
 Copy over the `widgets/animated_logo` folder into your `widgets` directory.
-
-Place your logo in the `images` folder with the name `logo.png` (note you can change this to whatever you like, just update the `assets/javascripts/logo.js` file)
+Place your logo in the `images` folder with the name `logo.png` (note you can change this to whatever you like, just update the logo.js file)
 
 Now add the widget into your dashboard:
 
 * Animated Logo widget
-```
+```html
 <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
   <div id="animated-logo" data-view="AnimatedLogo"></div>
 </li>
