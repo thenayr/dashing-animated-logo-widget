@@ -8,7 +8,7 @@ function logoInit() {
 
     var stage = new PIXI.Stage;
 
-    var LogoTexture = PIXI.Texture.fromImage("/assets/logo_small_trans.png");
+    var LogoTexture = PIXI.Texture.fromImage("/assets/logo.png");
     var logo = new PIXI.Sprite(LogoTexture);
 
     logo.position.x = 150;
