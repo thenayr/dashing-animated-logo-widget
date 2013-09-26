@@ -29,7 +29,7 @@ Place your logo in the `images` folder with the name `logo.png` (note you can ch
 Now add the widget into your dashboard:
 
 * Animated Logo widget
-```html
+```
 <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
   <div id="animated-logo" data-view="AnimatedLogo"></div>
 </li>
